@@ -1,5 +1,5 @@
 import React from 'react'
-import Download from './content/download'
+import Download from './content/Download'
 import Live from './content/Live'
 import Subsciptions from './content/Subsciptions'
 import Popular from './content/Popular'
