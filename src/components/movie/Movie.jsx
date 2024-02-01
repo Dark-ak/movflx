@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams, useLocation, useNavigate } from 'react-router-dom'
 import api from "../../utilities/api"
 import Details from './Details'
-import Trending from '../content/Trending'
+import Popular from '../content/Popular'
 import Footer from '../Footer'
 
 const Movie = () => {
@@ -40,7 +40,7 @@ const Movie = () => {
 
         <Details data={data} type={type}/>
       </div>
-      <Trending />
+      <Popular />
       <Footer />
     </div>
   )
