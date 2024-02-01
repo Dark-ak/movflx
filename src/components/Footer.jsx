@@ -4,7 +4,7 @@ import logo from "../assets/logo.png"
 const Footer = () => {
     return (
         <div className='bg-[#12151e] '>
-            <div className='flex flex-col bg-footer items-center p-10'>
+            <div className='flex flex-col items-center p-10' style={{backgroundImage: "url('/footer_bg.jpg')"}}>
                 <img src={logo} alt="" className='p-8' />
                 <div className='flex text-sm gap-5 justify-center flex-wrap items-center uppercase'>
                     <p className='text-[#c3c3c3] font-bold'>Home</p>
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
 
             <div className='text-center bg-[#12151e] w-[100%] text-white text-sm py-3'>
-                    <p>Copyright &#169;. All Rights Reserved By <span className='text-yellow-300'>Movflx</span></p>
+                    <p >Copyright &#169;. All Rights Reserved By <span className='text-yellow-300'>Darkak</span></p>
                 </div>
         </div>
     )

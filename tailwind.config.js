@@ -10,7 +10,6 @@ export default {
         poppins: ['Poppins',"sans-serif"]
       },
       backgroundImage: {
-        banner: "url(./src/assets/banner_bg01.jpg)",
         footer: "url(./src/assets/footer_bg.jpg)"
       }
     },
