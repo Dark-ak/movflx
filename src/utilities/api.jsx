@@ -8,7 +8,7 @@ const headers = {
 }
 
 const discover = (type, genre) => {
-    const request = axios.get(`${baseUrl}/discover/${type}/?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc&with_genres=${genre}`, {headers:headers})
+    const request = axios.get(`${baseUrl}/discover/${type}/?with_genres=${genre}`, {headers:headers})
     return request.then(response => response.data)
 }
 
